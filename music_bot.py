@@ -326,4 +326,5 @@ async def now_playing(ctx):
         await ctx.send('❌ Tidak ada musik yang sedang diputar!')
 
 # Ganti dengan token bot Discord kamu
-bot.run(os.getenv('MTQyMzk2MzAxNjIyMjk5ODU2MA.GooOF9.d4UAysS6tkqlB3P1Uht5CQtOnJnHsa7TXrPvqg'))
+
+bot.run(os.getenv('DISCORD_TOKEN'))
